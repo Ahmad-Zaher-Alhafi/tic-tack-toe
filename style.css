@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container {
+    height: 70vh;
+    width: 70vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.cell {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+
+    font-size: 300%;
+    user-select: none;
+}
+
+.playerConfiguration {
+    display: flex;
+    gap: 20px;
+}
+
+.configuration {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.playersInGame {
+    display: flex;
+    gap: 20px;
+}
