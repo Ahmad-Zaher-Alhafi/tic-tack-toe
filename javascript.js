@@ -295,8 +295,8 @@ const gameController = (function () {
 
         gameFinished = true;
 
-        const wonPlayer = players.find(player => player.getGameSymbol() == wonSymbol);
-        wonPlayer == undefined ? undefined : wonPlayer.getName();
+        let wonPlayer = players.find(player => player.getGameSymbol() == wonSymbol);
+        wonPlayer = wonPlayer == undefined ? undefined : wonPlayer.getName();
 
         onGameFinished(wonPlayer);
     }
